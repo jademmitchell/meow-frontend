@@ -196,7 +196,6 @@ class HomeView {
 
       .filter-btn {
         padding: 0.5em;
-        margin-top: 1.5em;
       }
 
       .clear-filter-btn {

@@ -182,7 +182,7 @@ customElements.define('va-pet', class Pet extends LitElement {
     </style>
     
     <sl-card class="front-card"> 
-        <img slot="image" src="${App.apiBase}/Images/pets/${this.image}" />
+        <img slot="image" src="${App.apiBase}/images/pets/${this.image}" />
         <h2>${this.name}</h2>
         <h4>${this.breed}</h4>
         <h4>$${this.price}</h4>
